@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		386E5DD61EA1057B00BA1075 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386E5DD51EA1057B00BA1075 /* AppDelegate.swift */; };
+		386E5DD81EA1057B00BA1075 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386E5DD71EA1057B00BA1075 /* ViewController.swift */; };
+		386E5DDB1EA1057B00BA1075 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386E5DD91EA1057B00BA1075 /* Main.storyboard */; };
+		386E5DDE1EA1057B00BA1075 /* Wayfarer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 386E5DDC1EA1057B00BA1075 /* Wayfarer.xcdatamodeld */; };
+		386E5DE01EA1057B00BA1075 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 386E5DDF1EA1057B00BA1075 /* Assets.xcassets */; };
+		386E5DE31EA1057B00BA1075 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386E5DE11EA1057B00BA1075 /* LaunchScreen.storyboard */; };
+		386E5DEE1EA1057C00BA1075 /* WayfarerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386E5DED1EA1057C00BA1075 /* WayfarerTests.swift */; };
+		386E5DF91EA1057C00BA1075 /* WayfarerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386E5DF81EA1057C00BA1075 /* WayfarerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		386E5DEA1EA1057C00BA1075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 386E5DCA1EA1057B00BA1075 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 386E5DD11EA1057B00BA1075;
+			remoteInfo = Wayfarer;
+		};
+		386E5DF51EA1057C00BA1075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 386E5DCA1EA1057B00BA1075 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 386E5DD11EA1057B00BA1075;
+			remoteInfo = Wayfarer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		386E5DD21EA1057B00BA1075 /* Wayfarer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wayfarer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		386E5DD51EA1057B00BA1075 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		386E5DD71EA1057B00BA1075 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		386E5DDA1EA1057B00BA1075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		386E5DDD1EA1057B00BA1075 /* Wayfarer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wayfarer.xcdatamodel; sourceTree = "<group>"; };
+		386E5DDF1EA1057B00BA1075 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		386E5DE21EA1057B00BA1075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		386E5DE41EA1057B00BA1075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		386E5DE91EA1057C00BA1075 /* WayfarerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WayfarerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		386E5DED1EA1057C00BA1075 /* WayfarerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayfarerTests.swift; sourceTree = "<group>"; };
+		386E5DEF1EA1057C00BA1075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		386E5DF41EA1057C00BA1075 /* WayfarerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WayfarerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		386E5DF81EA1057C00BA1075 /* WayfarerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayfarerUITests.swift; sourceTree = "<group>"; };
+		386E5DFA1EA1057C00BA1075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		386E5DCF1EA1057B00BA1075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386E5DE61EA1057C00BA1075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386E5DF11EA1057C00BA1075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		386E5DC91EA1057B00BA1075 = {
+			isa = PBXGroup;
+			children = (
+				386E5DD41EA1057B00BA1075 /* Wayfarer */,
+				386E5DEC1EA1057C00BA1075 /* WayfarerTests */,
+				386E5DF71EA1057C00BA1075 /* WayfarerUITests */,
+				386E5DD31EA1057B00BA1075 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		386E5DD31EA1057B00BA1075 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				386E5DD21EA1057B00BA1075 /* Wayfarer.app */,
+				386E5DE91EA1057C00BA1075 /* WayfarerTests.xctest */,
+				386E5DF41EA1057C00BA1075 /* WayfarerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		386E5DD41EA1057B00BA1075 /* Wayfarer */ = {
+			isa = PBXGroup;
+			children = (
+				386E5DD51EA1057B00BA1075 /* AppDelegate.swift */,
+				386E5DD71EA1057B00BA1075 /* ViewController.swift */,
+				386E5DD91EA1057B00BA1075 /* Main.storyboard */,
+				386E5DDF1EA1057B00BA1075 /* Assets.xcassets */,
+				386E5DE11EA1057B00BA1075 /* LaunchScreen.storyboard */,
+				386E5DE41EA1057B00BA1075 /* Info.plist */,
+				386E5DDC1EA1057B00BA1075 /* Wayfarer.xcdatamodeld */,
+			);
+			path = Wayfarer;
+			sourceTree = "<group>";
+		};
+		386E5DEC1EA1057C00BA1075 /* WayfarerTests */ = {
+			isa = PBXGroup;
+			children = (
+				386E5DED1EA1057C00BA1075 /* WayfarerTests.swift */,
+				386E5DEF1EA1057C00BA1075 /* Info.plist */,
+			);
+			path = WayfarerTests;
+			sourceTree = "<group>";
+		};
+		386E5DF71EA1057C00BA1075 /* WayfarerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				386E5DF81EA1057C00BA1075 /* WayfarerUITests.swift */,
+				386E5DFA1EA1057C00BA1075 /* Info.plist */,
+			);
+			path = WayfarerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		386E5DD11EA1057B00BA1075 /* Wayfarer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 386E5DFD1EA1057C00BA1075 /* Build configuration list for PBXNativeTarget "Wayfarer" */;
+			buildPhases = (
+				386E5DCE1EA1057B00BA1075 /* Sources */,
+				386E5DCF1EA1057B00BA1075 /* Frameworks */,
+				386E5DD01EA1057B00BA1075 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wayfarer;
+			productName = Wayfarer;
+			productReference = 386E5DD21EA1057B00BA1075 /* Wayfarer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		386E5DE81EA1057C00BA1075 /* WayfarerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 386E5E001EA1057C00BA1075 /* Build configuration list for PBXNativeTarget "WayfarerTests" */;
+			buildPhases = (
+				386E5DE51EA1057C00BA1075 /* Sources */,
+				386E5DE61EA1057C00BA1075 /* Frameworks */,
+				386E5DE71EA1057C00BA1075 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				386E5DEB1EA1057C00BA1075 /* PBXTargetDependency */,
+			);
+			name = WayfarerTests;
+			productName = WayfarerTests;
+			productReference = 386E5DE91EA1057C00BA1075 /* WayfarerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		386E5DF31EA1057C00BA1075 /* WayfarerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 386E5E031EA1057C00BA1075 /* Build configuration list for PBXNativeTarget "WayfarerUITests" */;
+			buildPhases = (
+				386E5DF01EA1057C00BA1075 /* Sources */,
+				386E5DF11EA1057C00BA1075 /* Frameworks */,
+				386E5DF21EA1057C00BA1075 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				386E5DF61EA1057C00BA1075 /* PBXTargetDependency */,
+			);
+			name = WayfarerUITests;
+			productName = WayfarerUITests;
+			productReference = 386E5DF41EA1057C00BA1075 /* WayfarerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		386E5DCA1EA1057B00BA1075 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Akash Sonthalia";
+				TargetAttributes = {
+					386E5DD11EA1057B00BA1075 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 3QUA83HD9E;
+						ProvisioningStyle = Automatic;
+					};
+					386E5DE81EA1057C00BA1075 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 3QUA83HD9E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 386E5DD11EA1057B00BA1075;
+					};
+					386E5DF31EA1057C00BA1075 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 3QUA83HD9E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 386E5DD11EA1057B00BA1075;
+					};
+				};
+			};
+			buildConfigurationList = 386E5DCD1EA1057B00BA1075 /* Build configuration list for PBXProject "Wayfarer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 386E5DC91EA1057B00BA1075;
+			productRefGroup = 386E5DD31EA1057B00BA1075 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				386E5DD11EA1057B00BA1075 /* Wayfarer */,
+				386E5DE81EA1057C00BA1075 /* WayfarerTests */,
+				386E5DF31EA1057C00BA1075 /* WayfarerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		386E5DD01EA1057B00BA1075 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386E5DE31EA1057B00BA1075 /* LaunchScreen.storyboard in Resources */,
+				386E5DE01EA1057B00BA1075 /* Assets.xcassets in Resources */,
+				386E5DDB1EA1057B00BA1075 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386E5DE71EA1057C00BA1075 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386E5DF21EA1057C00BA1075 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		386E5DCE1EA1057B00BA1075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386E5DD81EA1057B00BA1075 /* ViewController.swift in Sources */,
+				386E5DD61EA1057B00BA1075 /* AppDelegate.swift in Sources */,
+				386E5DDE1EA1057B00BA1075 /* Wayfarer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386E5DE51EA1057C00BA1075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386E5DEE1EA1057C00BA1075 /* WayfarerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386E5DF01EA1057C00BA1075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386E5DF91EA1057C00BA1075 /* WayfarerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		386E5DEB1EA1057C00BA1075 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 386E5DD11EA1057B00BA1075 /* Wayfarer */;
+			targetProxy = 386E5DEA1EA1057C00BA1075 /* PBXContainerItemProxy */;
+		};
+		386E5DF61EA1057C00BA1075 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 386E5DD11EA1057B00BA1075 /* Wayfarer */;
+			targetProxy = 386E5DF51EA1057C00BA1075 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		386E5DD91EA1057B00BA1075 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				386E5DDA1EA1057B00BA1075 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		386E5DE11EA1057B00BA1075 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				386E5DE21EA1057B00BA1075 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		386E5DFB1EA1057C00BA1075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		386E5DFC1EA1057C00BA1075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		386E5DFE1EA1057C00BA1075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3QUA83HD9E;
+				INFOPLIST_FILE = Wayfarer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Akash-Sonthalia.Wayfarer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		386E5DFF1EA1057C00BA1075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3QUA83HD9E;
+				INFOPLIST_FILE = Wayfarer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Akash-Sonthalia.Wayfarer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		386E5E011EA1057C00BA1075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3QUA83HD9E;
+				INFOPLIST_FILE = WayfarerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Akash-Sonthalia.WayfarerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wayfarer.app/Wayfarer";
+			};
+			name = Debug;
+		};
+		386E5E021EA1057C00BA1075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3QUA83HD9E;
+				INFOPLIST_FILE = WayfarerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Akash-Sonthalia.WayfarerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wayfarer.app/Wayfarer";
+			};
+			name = Release;
+		};
+		386E5E041EA1057C00BA1075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3QUA83HD9E;
+				INFOPLIST_FILE = WayfarerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Akash-Sonthalia.WayfarerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Wayfarer;
+			};
+			name = Debug;
+		};
+		386E5E051EA1057C00BA1075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3QUA83HD9E;
+				INFOPLIST_FILE = WayfarerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Akash-Sonthalia.WayfarerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Wayfarer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		386E5DCD1EA1057B00BA1075 /* Build configuration list for PBXProject "Wayfarer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386E5DFB1EA1057C00BA1075 /* Debug */,
+				386E5DFC1EA1057C00BA1075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		386E5DFD1EA1057C00BA1075 /* Build configuration list for PBXNativeTarget "Wayfarer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386E5DFE1EA1057C00BA1075 /* Debug */,
+				386E5DFF1EA1057C00BA1075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		386E5E001EA1057C00BA1075 /* Build configuration list for PBXNativeTarget "WayfarerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386E5E011EA1057C00BA1075 /* Debug */,
+				386E5E021EA1057C00BA1075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		386E5E031EA1057C00BA1075 /* Build configuration list for PBXNativeTarget "WayfarerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386E5E041EA1057C00BA1075 /* Debug */,
+				386E5E051EA1057C00BA1075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		386E5DDC1EA1057B00BA1075 /* Wayfarer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				386E5DDD1EA1057B00BA1075 /* Wayfarer.xcdatamodel */,
+			);
+			currentVersion = 386E5DDD1EA1057B00BA1075 /* Wayfarer.xcdatamodel */;
+			path = Wayfarer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 386E5DCA1EA1057B00BA1075 /* Project object */;
+}
