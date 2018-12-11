@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CCB8FAF7D75AEE54B8A16EA /* Pods_WayfarerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259DE4060F94F40D577A02F6 /* Pods_WayfarerTests.framework */; };
 		386E5DD61EA1057B00BA1075 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386E5DD51EA1057B00BA1075 /* AppDelegate.swift */; };
 		386E5DD81EA1057B00BA1075 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386E5DD71EA1057B00BA1075 /* ViewController.swift */; };
 		386E5DDB1EA1057B00BA1075 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386E5DD91EA1057B00BA1075 /* Main.storyboard */; };
@@ -15,6 +16,14 @@
 		386E5DE31EA1057B00BA1075 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386E5DE11EA1057B00BA1075 /* LaunchScreen.storyboard */; };
 		386E5DEE1EA1057C00BA1075 /* WayfarerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386E5DED1EA1057C00BA1075 /* WayfarerTests.swift */; };
 		386E5DF91EA1057C00BA1075 /* WayfarerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386E5DF81EA1057C00BA1075 /* WayfarerUITests.swift */; };
+		386E5E071EA1134A00BA1075 /* CountingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386E5E061EA1134A00BA1075 /* CountingLabel.swift */; };
+		386E5E091EA15E9200BA1075 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386E5E081EA15E9200BA1075 /* AboutViewController.swift */; };
+		386E5E0C1EA1647A00BA1075 /* blue.json in Resources */ = {isa = PBXBuildFile; fileRef = 386E5E0A1EA1647A00BA1075 /* blue.json */; };
+		386E5E0D1EA1647A00BA1075 /* red.json in Resources */ = {isa = PBXBuildFile; fileRef = 386E5E0B1EA1647A00BA1075 /* red.json */; };
+		386E5E111EA1664500BA1075 /* SensorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386E5E101EA1664500BA1075 /* SensorViewController.swift */; };
+		38E471CC1EA533D1007F81EA /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E471CB1EA533D1007F81EA /* HomeKit.framework */; };
+		953A8411D12A429888793AE4 /* Pods_Wayfarer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B0150540F81881AD1A155D6 /* Pods_Wayfarer.framework */; };
+		C8D85C036748E3330407FD07 /* Pods_WayfarerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA769B78FE90864CFCE326B1 /* Pods_WayfarerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		209576F16A400C2C77ABA2D7 /* Pods-WayfarerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WayfarerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WayfarerTests/Pods-WayfarerTests.release.xcconfig"; sourceTree = "<group>"; };
+		259DE4060F94F40D577A02F6 /* Pods_WayfarerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WayfarerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		386E5DD21EA1057B00BA1075 /* Wayfarer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wayfarer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		386E5DD51EA1057B00BA1075 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		386E5DD71EA1057B00BA1075 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +60,20 @@
 		386E5DF41EA1057C00BA1075 /* WayfarerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WayfarerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		386E5DF81EA1057C00BA1075 /* WayfarerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayfarerUITests.swift; sourceTree = "<group>"; };
 		386E5DFA1EA1057C00BA1075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		386E5E061EA1134A00BA1075 /* CountingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingLabel.swift; sourceTree = "<group>"; };
+		386E5E081EA15E9200BA1075 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = ../AboutViewController.swift; sourceTree = "<group>"; };
+		386E5E0A1EA1647A00BA1075 /* blue.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = blue.json; sourceTree = "<group>"; };
+		386E5E0B1EA1647A00BA1075 /* red.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = red.json; sourceTree = "<group>"; };
+		386E5E101EA1664500BA1075 /* SensorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorViewController.swift; sourceTree = "<group>"; };
+		38E471CA1EA533D0007F81EA /* Wayfarer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Wayfarer.entitlements; sourceTree = "<group>"; };
+		38E471CB1EA533D1007F81EA /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		3D6B233E20ACAE12238CC855 /* Pods-WayfarerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WayfarerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WayfarerUITests/Pods-WayfarerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4B0150540F81881AD1A155D6 /* Pods_Wayfarer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wayfarer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A3377DCEA140FBC9AA18F31 /* Pods-Wayfarer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wayfarer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wayfarer/Pods-Wayfarer.debug.xcconfig"; sourceTree = "<group>"; };
+		722A81519AF5D9987D018ADB /* Pods-WayfarerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WayfarerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WayfarerTests/Pods-WayfarerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8921B763BE73BDF2F7136E94 /* Pods-Wayfarer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wayfarer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wayfarer/Pods-Wayfarer.release.xcconfig"; sourceTree = "<group>"; };
+		BA769B78FE90864CFCE326B1 /* Pods_WayfarerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WayfarerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E466936C2A2A087201CFB63B /* Pods-WayfarerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WayfarerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WayfarerUITests/Pods-WayfarerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38E471CC1EA533D1007F81EA /* HomeKit.framework in Frameworks */,
+				953A8411D12A429888793AE4 /* Pods_Wayfarer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CCB8FAF7D75AEE54B8A16EA /* Pods_WayfarerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +98,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8D85C036748E3330407FD07 /* Pods_WayfarerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		296F560D4E11573CAF381F18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A3377DCEA140FBC9AA18F31 /* Pods-Wayfarer.debug.xcconfig */,
+				8921B763BE73BDF2F7136E94 /* Pods-Wayfarer.release.xcconfig */,
+				722A81519AF5D9987D018ADB /* Pods-WayfarerTests.debug.xcconfig */,
+				209576F16A400C2C77ABA2D7 /* Pods-WayfarerTests.release.xcconfig */,
+				E466936C2A2A087201CFB63B /* Pods-WayfarerUITests.debug.xcconfig */,
+				3D6B233E20ACAE12238CC855 /* Pods-WayfarerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		386E5DC91EA1057B00BA1075 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +125,8 @@
 				386E5DEC1EA1057C00BA1075 /* WayfarerTests */,
 				386E5DF71EA1057C00BA1075 /* WayfarerUITests */,
 				386E5DD31EA1057B00BA1075 /* Products */,
+				296F560D4E11573CAF381F18 /* Pods */,
+				6B2DD2799B2F33FB243C4CCF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +143,13 @@
 		386E5DD41EA1057B00BA1075 /* Wayfarer */ = {
 			isa = PBXGroup;
 			children = (
+				38E471CA1EA533D0007F81EA /* Wayfarer.entitlements */,
+				386E5E0E1EA1648000BA1075 /* Animation JSONS */,
 				386E5DD51EA1057B00BA1075 /* AppDelegate.swift */,
+				386E5E061EA1134A00BA1075 /* CountingLabel.swift */,
 				386E5DD71EA1057B00BA1075 /* ViewController.swift */,
+				386E5E081EA15E9200BA1075 /* AboutViewController.swift */,
+				386E5E101EA1664500BA1075 /* SensorViewController.swift */,
 				386E5DD91EA1057B00BA1075 /* Main.storyboard */,
 				386E5DDF1EA1057B00BA1075 /* Assets.xcassets */,
 				386E5DE11EA1057B00BA1075 /* LaunchScreen.storyboard */,
@@ -128,6 +177,26 @@
 			path = WayfarerUITests;
 			sourceTree = "<group>";
 		};
+		386E5E0E1EA1648000BA1075 /* Animation JSONS */ = {
+			isa = PBXGroup;
+			children = (
+				386E5E0A1EA1647A00BA1075 /* blue.json */,
+				386E5E0B1EA1647A00BA1075 /* red.json */,
+			);
+			name = "Animation JSONS";
+			sourceTree = "<group>";
+		};
+		6B2DD2799B2F33FB243C4CCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38E471CB1EA533D1007F81EA /* HomeKit.framework */,
+				4B0150540F81881AD1A155D6 /* Pods_Wayfarer.framework */,
+				259DE4060F94F40D577A02F6 /* Pods_WayfarerTests.framework */,
+				BA769B78FE90864CFCE326B1 /* Pods_WayfarerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 386E5DFD1EA1057C00BA1075 /* Build configuration list for PBXNativeTarget "Wayfarer" */;
 			buildPhases = (
+				271DA1026C7F1D7384CFE31D /* [CP] Check Pods Manifest.lock */,
 				386E5DCE1EA1057B00BA1075 /* Sources */,
 				386E5DCF1EA1057B00BA1075 /* Frameworks */,
 				386E5DD01EA1057B00BA1075 /* Resources */,
+				FD0CF64BFD8640C06397150F /* [CP] Embed Pods Frameworks */,
+				A6D8EE946DC0253AF4E9C72E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 386E5E001EA1057C00BA1075 /* Build configuration list for PBXNativeTarget "WayfarerTests" */;
 			buildPhases = (
+				04CF09F1AAD912DDC74E0BA7 /* [CP] Check Pods Manifest.lock */,
 				386E5DE51EA1057C00BA1075 /* Sources */,
 				386E5DE61EA1057C00BA1075 /* Frameworks */,
 				386E5DE71EA1057C00BA1075 /* Resources */,
+				4F253B85F6234B42E4F88E4F /* [CP] Embed Pods Frameworks */,
+				66031C2D380A2B6A09C6E537 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 386E5E031EA1057C00BA1075 /* Build configuration list for PBXNativeTarget "WayfarerUITests" */;
 			buildPhases = (
+				D58A2CD4480C25D581A7DAE0 /* [CP] Check Pods Manifest.lock */,
 				386E5DF01EA1057C00BA1075 /* Sources */,
 				386E5DF11EA1057C00BA1075 /* Frameworks */,
 				386E5DF21EA1057C00BA1075 /* Resources */,
+				9F6F94C2BBE10E32BA99CAB9 /* [CP] Embed Pods Frameworks */,
+				6C1B4C5B50A29C05D180307E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,6 +276,11 @@
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = 3QUA83HD9E;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+						};
 					};
 					386E5DE81EA1057C00BA1075 = {
 						CreatedOnToolsVersion = 8.3.1;
@@ -239,7 +322,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				386E5DE31EA1057B00BA1075 /* LaunchScreen.storyboard in Resources */,
+				386E5E0C1EA1647A00BA1075 /* blue.json in Resources */,
 				386E5DE01EA1057B00BA1075 /* Assets.xcassets in Resources */,
+				386E5E0D1EA1647A00BA1075 /* red.json in Resources */,
 				386E5DDB1EA1057B00BA1075 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,13 +345,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04CF09F1AAD912DDC74E0BA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		271DA1026C7F1D7384CFE31D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4F253B85F6234B42E4F88E4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WayfarerTests/Pods-WayfarerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66031C2D380A2B6A09C6E537 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WayfarerTests/Pods-WayfarerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C1B4C5B50A29C05D180307E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WayfarerUITests/Pods-WayfarerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F6F94C2BBE10E32BA99CAB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WayfarerUITests/Pods-WayfarerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6D8EE946DC0253AF4E9C72E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wayfarer/Pods-Wayfarer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D58A2CD4480C25D581A7DAE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD0CF64BFD8640C06397150F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wayfarer/Pods-Wayfarer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		386E5DCE1EA1057B00BA1075 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				386E5DD81EA1057B00BA1075 /* ViewController.swift in Sources */,
+				386E5E071EA1134A00BA1075 /* CountingLabel.swift in Sources */,
+				386E5E111EA1664500BA1075 /* SensorViewController.swift in Sources */,
 				386E5DD61EA1057B00BA1075 /* AppDelegate.swift in Sources */,
+				386E5E091EA15E9200BA1075 /* AboutViewController.swift in Sources */,
 				386E5DDE1EA1057B00BA1075 /* Wayfarer.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,10 +645,13 @@
 		};
 		386E5DFE1EA1057C00BA1075 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A3377DCEA140FBC9AA18F31 /* Pods-Wayfarer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Wayfarer/Wayfarer.entitlements;
 				DEVELOPMENT_TEAM = 3QUA83HD9E;
 				INFOPLIST_FILE = Wayfarer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Akash-Sonthalia.Wayfarer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,10 +661,13 @@
 		};
 		386E5DFF1EA1057C00BA1075 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8921B763BE73BDF2F7136E94 /* Pods-Wayfarer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Wayfarer/Wayfarer.entitlements;
 				DEVELOPMENT_TEAM = 3QUA83HD9E;
 				INFOPLIST_FILE = Wayfarer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Akash-Sonthalia.Wayfarer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -445,6 +677,7 @@
 		};
 		386E5E011EA1057C00BA1075 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 722A81519AF5D9987D018ADB /* Pods-WayfarerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +693,7 @@
 		};
 		386E5E021EA1057C00BA1075 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 209576F16A400C2C77ABA2D7 /* Pods-WayfarerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +709,7 @@
 		};
 		386E5E041EA1057C00BA1075 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E466936C2A2A087201CFB63B /* Pods-WayfarerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 3QUA83HD9E;
@@ -489,6 +724,7 @@
 		};
 		386E5E051EA1057C00BA1075 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D6B233E20ACAE12238CC855 /* Pods-WayfarerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 3QUA83HD9E;
@@ -520,6 +756,7 @@
 				386E5DFF1EA1057C00BA1075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		386E5E001EA1057C00BA1075 /* Build configuration list for PBXNativeTarget "WayfarerTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +765,7 @@
 				386E5E021EA1057C00BA1075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		386E5E031EA1057C00BA1075 /* Build configuration list for PBXNativeTarget "WayfarerUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +774,7 @@
 				386E5E051EA1057C00BA1075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
