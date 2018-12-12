@@ -1,8 +1,8 @@
 # Wayfarer - A smart jacket
  
- This project was the winner for the Microsoft Labs Hackathon held at DSCE in March 2017.
- 
-![alt text](https://i.imgur.com/GLA1g5Q.jpg)
+![alt text](https://i.imgur.com/DY6yqra.jpg)
+
+This project was the winner for the Microsoft Labs Hackathon held at DSCE in March 2017.
 
 Wayfarer is a smart IOT based temperature controlled jacket that could optimse the inside temparature based on the outside temperature also showing and detecting the posture of the person wearing it.
 
