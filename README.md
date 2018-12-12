@@ -4,6 +4,8 @@
 
 Wayfarer is a smart IOT based temperature controlled jacket that could optimse the inside temparature based on the outside temperature also showing and detecting the posture of the person wearing it.
 
+![alt text](https://i.imgur.com/37nU2sr.jpg)
+
 This repository contains the application for the hardware. The application is coded in swift, built for iOS. 
 
 ![alt text](https://i.imgur.com/IHVCuLt.jpg)
