@@ -14,5 +14,11 @@ This repository contains the application for the hardware. The application is co
 
 The integrations made for the application are using Lottie, an AirBnB framework for animations, thingspeak, a IOT backend. The application is capable of projecting and understanding data in realtime setting up successful communication via the front end to the backend and to the hardware.
 
+Following are the features of the application:
+
+1. Can connect to the IoT device via JSON data fetching through a URL.
+2. Fetches the latest value of the temperature and displays it on an animated thermometer.
+3. Maps the location of the temperature changers on hte jacket and animates it.
+
 © All Rights Reserved. Team Wayfarer.
 Team Wayfarer consists of Akash Sonthalia, Anmol Saxena and Charan Hanumanthappa.
